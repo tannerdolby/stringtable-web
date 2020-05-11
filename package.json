@@ -1,0 +1,16 @@
+{
+  "name": "strings-project",
+  "version": "1.0.0",
+  "description": "Strings Project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {}
+}
