@@ -16,7 +16,7 @@ git clone https://github.com/tannercd/stringtable-web.git
 
 To run this project you will need Node.js installed (use link above) then we can use `npm` to globally install ESLint.
 
-* With Node and Node.js installed:
+* With Node.js installed:
 ```
 npm install eslint -g
 ```
