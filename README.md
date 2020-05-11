@@ -27,7 +27,7 @@ npm install eslint -g
 
 * You can view this application publicly through my Pen (https://codepen.io/spherical/pen/KKdRBmr).
 
-<img width="575" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
+<img width="575" height="600" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
 
 
 ### Coding style tests
