@@ -1,10 +1,11 @@
-# Project Title
+# String Table
 This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and got familiar with Node and ESLint for code analysis in the process.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 #### Clone Repo (Quickstart)
+
 ```
 git clone https://github.com/tannercd/stringtable-web.git
 ```
@@ -13,10 +14,11 @@ git clone https://github.com/tannercd/stringtable-web.git
 1. Node.js (https://nodejs.org/en/)
 2. ESLint (https://eslint.org/)
 
-What things you need to install the software and how to install them
+To run this project you will need Node.js installed (use link above) then we can use `npm` to globally install ESLint.
 
+* With Node and Node.js installed:
 ```
-Give examples
+npm install eslint -g
 ```
 
 ### Installing
@@ -25,37 +27,10 @@ Give examples
 
 * You can view this application publicly through my Pen (https://codepen.io/spherical/pen/KKdRBmr).
 
-A step by step series of examples that tell you how to get a development env running
+<img width="575" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-To run the eslint:
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
+### Coding style tests
 
 This project is using ESLint as a static code analyis tool for finding problematic patterns in JavaScript code. 
 
