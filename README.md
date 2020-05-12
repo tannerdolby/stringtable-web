@@ -99,7 +99,7 @@ No need for live deployment, as its a small example app showcasing common string
 * Node - JavaScript runtime for Server side JS
 * JavaScript - Client side JavaScript
 * HTML - Used to structure DOM and organize page content
-* CSS - The styling sheet for DOM elements
+* CSS - The stylesheet language
 * ESLint - Used for static code analysis
 
 ## Contributing
