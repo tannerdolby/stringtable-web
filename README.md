@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 #### Clone Repo (Quickstart)
 
 ```
-git clone https://github.com/tannercd/stringtable-web.git
+git clone https://github.com/your-username/stringtable-web.git
 ```
 
 ### Prerequisites
@@ -23,7 +23,7 @@ npm install eslint -g
 
 ### Installing
 
-* Fork this repo and run the application on any local server to test the String table.
+* Fork this repo and clone your own local copy to run the application on any local server to test the String table.
 
 * You can view this application publicly through my Pen (https://codepen.io/spherical/pen/KKdRBmr).
 
