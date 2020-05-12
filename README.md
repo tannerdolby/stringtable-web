@@ -98,7 +98,7 @@ No need for live deployment, as its a small example app showcasing common string
 ## Built With
 * Node - JavaScript runtime for Server side JS
 * JavaScript - Client side JavaScript
-* HTML - Used to structure DOM and organize page content
+* HTML - Markup langauge to structure web content
 * CSS - The stylesheet language
 * ESLint - Used for static code analysis
 
