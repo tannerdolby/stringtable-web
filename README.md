@@ -5,7 +5,11 @@ This small project was apart of a JavaScript curriculumn created by Jad Joubran.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 #### Fork & Clone Repo (Quickstart)
-Click the Fork button on the upper right side of the page to easily fork this repo to your own Github account.
+Click the Fork button on the upper right side of the page to easily fork this repository to your own Github account. 
+ 
+* Note: Forking creates a copy of the original repository on your Github Account
+
+Then proceed to `git clone`
 
 ```
 git clone https://github.com/your-username/stringtable-web.git
