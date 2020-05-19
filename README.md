@@ -98,9 +98,6 @@ spherical:strings-project TannerDolby$ eslint test.js
 
 To use the power of ESLint for code analysis on any JavaScript file. Open a terminal or bash and run: `eslint filename.js` or with npm: `npm run lint`.
 
-## Deployment
-No need for live deployment, as its a small example app showcasing common string variations.
-
 ## Built With
 * Node - JavaScript runtime for Server side JS
 * JavaScript - Client side JavaScript
