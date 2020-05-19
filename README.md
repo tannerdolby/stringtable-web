@@ -5,7 +5,7 @@ This small project was apart of a JavaScript curriculumn created by Jad Joubran.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-#### Fork & Clone Repo (Quickstart)
+### Fork & Clone Repo (Quickstart)
 Click the Fork button on the upper right side of the page to easily fork this repository to your own Github account. 
  
 * Note: Forking creates a copy of the original repository on your Github Account
