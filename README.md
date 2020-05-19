@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # String Table
-This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and got familiar with Node and ESLint for code analysis in the process.
+This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and became familiar with Node and ESLint for code analysis in the process.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
