@@ -1,5 +1,7 @@
-<img width="600" height="400" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
+<img width="500" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 # String Table
 This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and got familiar with Node and ESLint for code analysis in the process.
 
