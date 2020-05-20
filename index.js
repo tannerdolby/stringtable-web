@@ -13,22 +13,22 @@ const item7 = document.querySelector("#item7");
 
 /* Adding Event listener to populate table on keyup() , ie when any keystroke is made on keyboard */
 name.addEventListener("keyup", () => {
-  const empty = "";
-  const result = name.value;
-  item1.textContent = getLength(result);
-  item2.textContent = getLowerCase(result);
-  item3.textContent = getUpperCase(result);
-  item4.textContent = getFirstChar(result);
-  item5.textContent = getLastChar(result);
-  if (result) {
-    item6.textContent = titleCaseStr(result);
-  } else {
-    item6.textContent = `${empty}`;
-  }
-  item7.textContent = removeSpace(result);
+    const empty = "";
+    const result = name.value;
+    item1.textContent = getLength(result);
+    item2.textContent = getLowerCase(result);
+    item3.textContent = getUpperCase(result);
+    item4.textContent = getFirstChar(result);
+    item5.textContent = getLastChar(result);
+    if (result) {
+        item6.textContent = titleCaseStr(result);
+    } else {
+        item6.textContent = `${empty}`;
+    }
+    item7.textContent = removeSpace(result);
 
-  if (result === undefined | result === "") {
-    return `${empty}`;
-  }
+    if (result === undefined | result === "") {
+        return `${empty}`;
+    }
 });
 

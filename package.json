@@ -4,7 +4,13 @@
   "description": "Strings Project",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint"
+    "lint": "eslint *.js"
+  },
+  "husky" : {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
   },
   "keywords": [],
   "author": "",
