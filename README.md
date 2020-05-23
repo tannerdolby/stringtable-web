@@ -1,8 +1,6 @@
-<img width="500" alt="Screen Shot 2020-05-11 at 4 43 00 PM" src="https://user-images.githubusercontent.com/48612525/81622693-9280f300-93a6-11ea-9cef-2d0bde30dbe8.png">
-
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# String Table
+# stringTable.io
 This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and became familiar with Node and ESLint for code analysis in the process.
 
 ## Getting Started
@@ -36,7 +34,6 @@ npm install eslint -g
 ```
 
 ### Installing
-
 * Fork this repo and clone your own local copy to run the application on any local server to test the String table.
 
 * You can view this application publicly through my Pen (https://codepen.io/spherical/pen/KKdRBmr).
@@ -45,58 +42,7 @@ npm install eslint -g
 
 This project is using ESLint as a static code analyis tool for finding problematic patterns in JavaScript code. 
 
-* Current Default ESLint Rules: (JSON Format)
-
-```
-"rules": {
-  "indent": [
-	  "error",
-	  2
-  ],
-  "linebreak-style": [
-	  "error",
-	  "unix"
-  ],
-  "quotes": [
-	  "error",
-	  "double"
-  ],
-  "semi": [
-	  "error",
-	  "always"
-  ]
-}
-```
-
-Here is an example of a "problematic" code block that can benefit from linting with my projects ESLint rules. For the sake of this example, imagine the code below resides within `test.js`.
-
-```
-const myMessage = 'Hello World'
-
-function sendMessage(message) {
-    console.log(message);
-}
-
-myMessae("hello world");
-```
-
-There are many problems that ESLint will notify for the above code snippet based on the rules defined, strings must use double quotes, must use semi-colons etc. Below are the errors created from running `eslist test.js` inside my Visual Studio Code terminal:
-
-```
-spherical:strings-project TannerDolby$ eslint test.js
-
-/Applications/MAMP/htdocs/strings-project/test.js
-  1:7   error  'myMessage' is assigned a value but never used  no-unused-vars
-  1:19  error  Strings must use doublequote                    quotes
-  3:10  error  'sendMessage' is defined but never used         no-unused-vars
-  7:1   error  'sendMesage' is not defined                     no-undef
-
-✖ 4 problems (4 errors, 0 warnings)
-  1 error and 0 warnings potentially fixable with the `--fix` option.
-
-```
-
-To use the power of ESLint for code analysis on any JavaScript file. Open a terminal or bash and run: `eslint filename.js` or with npm: `npm run lint`.
+To utilize the power of ESLint for code analysis on any JavaScript file. Open a terminal or bash and run: `eslint filename.js` or with npm: `npm run lint`.
 
 ## Built With
 * Node - JavaScript runtime for Server side JS
