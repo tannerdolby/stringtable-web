@@ -55,4 +55,4 @@ To utilize the power of ESLint for code analysis on any JavaScript file. Open a 
 Please use proper contributing etiquette for submitting a pull request to this repo. I'm happy to fix my mistakes if you help me find them!
 
 ## Acknowledgments
-A special thanks to Jad Joubran (@jadjoubran | https://github.com/jadjoubran) for providing the JavaScript course that helped me to modify this project to my liking. These interactive tables that serve populate table data on keyup are quite enjoyable to watch (and build).
+A special thanks to Jad Joubran (@jadjoubran | https://github.com/jadjoubran) for providing the JavaScript course that helped me to modify this project to my liking. These interactive tables that populate table data on keyup are quite enjoyable to watch (and build).
