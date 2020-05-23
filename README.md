@@ -1,6 +1,6 @@
+# StrTable.io
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# stringTable.io
 This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and became familiar with Node and ESLint for code analysis in the process.
 
 ## Getting Started
