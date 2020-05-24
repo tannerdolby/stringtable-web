@@ -22,18 +22,36 @@ const item12 = document.querySelector("#item12");
 name.addEventListener("keyup", () => {
     const result = name.value;
     if (result !== undefined || "") {
-        item1.textContent = getLength(result);
-        item2.textContent = getLowerCase(result);
-        item3.textContent = getUpperCase(result);
-        item4.textContent = getFirstChar(result);
-        item5.textContent = getLastChar(result);
-        item6.textContent = titleCaseStr(result);
-        item7.textContent = removeSpace(result);
+        item1.innerText = getLength(result);
+        item2.innerText = getLowerCase(result);
+        item3.innerText = getUpperCase(result);
+        item4.innerText = getFirstChar(result);
+        item5.innerText = getLastChar(result);
+        item6.innerText = titleCaseStr(result);
+        item7.innerText = removeSpace(result);
         item8.innerText = rot13(result);
         item9.innerText = toCamelCase(result);
         item10.innerText = toAscii(result);
         item11.innerText = toHex(result);
         item12.innerText = huffmanCode(result);
     }
+});
+
+// Add event listener for click event on clear button
+const clearBtn = document.body.querySelector("#myBtn");
+clearBtn.addEventListener("click", function() {
+    name.value = null;
+    item1.textContent = null;
+    item2.innerText = null;
+    item3.innerText = null;
+    item4.innerText = null;
+    item5.innerText = null;
+    item6.innerText = null;
+    item7.innerText = null;
+    item8.innerText = null;
+    item9.innerText = null;
+    item10.innerText = null;
+    item11.innerText = null;
+    item12.innerText = null;
 });
 

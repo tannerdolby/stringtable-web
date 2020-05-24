@@ -14,14 +14,17 @@
         <nav>
             <h1><a href="https://github.com/tannercd/stringtable-web" target="_blank">StrTable.io</a></h1>
             <a href="https://www.github.com/tannercd" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.twitter.com/DolbyTanner" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/tannercd_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="https://www.freecodecamp.org/tannercd" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
         </nav>
         <main>
             <section id="enterName">
                 <div class="get-info">
                     <label for="name">Enter a string in the box below:</label>
-                    <input type="text" name="name" id="myName" placeholder="Your string..."/>
+                    <div class="flex">
+                        <input type="text" name="name" id="myName" placeholder="Your string..."/>
+                        <input type="button" id="myBtn" value="Clear input" />
+                    </div>
                 </div>
             </section>
             <section id="stringTable">
@@ -55,15 +58,15 @@
                                 <td id="item5"></td>
                             </tr>
                             <tr>
-                                <td>Capitalize</td>
+                                <td>Title Case</td>
                                 <td id="item6"></td>
                             </tr>
                             <tr>
-                                <td>Remove leading and<br>trailing space</td>
+                                <td>Trim whitespace</td>
                                 <td id="item7"></td>
                             </tr>
                             <tr>
-                                <td>Ceasar Cipher (ROT13)</td>
+                                <td>Caesar Cipher (ROT13)</td>
                                 <td id="item8"></td>
                             </tr>
                             <tr>

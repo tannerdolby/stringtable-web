@@ -8,7 +8,7 @@ export function getLength(name) {
     } else {
         result = "";
     }
-    return `${result}`;
+    return result;
 }
 
 /**
@@ -52,7 +52,7 @@ export function getFirstChar(name) {
     } else {
         result = "";
     }
-    return `${result}`;
+    return result;
 }
 
 /**
@@ -65,7 +65,7 @@ export function getLastChar(name) {
     } else {
         result = "";
     }
-    return `${result}`;
+    return result;
 }
 
 /**
@@ -87,7 +87,7 @@ export function rot13(str) {
         .split("")
         .map(val => {
             const char = alphabet.indexOf(val);
-            return char >= 0 ? alphabet[(char + 13) % 26] : char;
+            return char >= 0 ? alphabet[(char + 13) % 26] : " ";
         })
         .join("");
 }
@@ -106,8 +106,6 @@ export function toCamelCase(str) {
         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     }).join(""); // dont forget to join the characters back together 
 }
-
-// Remember :) The charCodeAt() method returns the Unicode of the character at the specified index in a string.
 
 /**
  * 
@@ -260,9 +258,10 @@ function HuffmanEncoding(str) {
     }
  
     var tree = pq.pop();
-    this.encoding = {};
-    this._generate_encoding(tree[1], "");
- 
+    if (tree) {
+        this.encoding = {};
+        this._generate_encoding(tree[1], "");
+    }
     this.encoded_string = "";
     for (var j = 0; j < this.str.length; j++) {
         this.encoded_string += this.encoding[str[j]];
@@ -304,11 +303,9 @@ HuffmanEncoding.prototype.decode = function(encoded) {
 };
 
 export function huffmanCode(str) {
-    if (str === null || str === undefined) {
-        return "";
-    }
     var huff = new HuffmanEncoding(str);
     huff.inspect_encoding(); // huffman encoding process
     var e = huff.encoded_string;
     return e;
 }
+

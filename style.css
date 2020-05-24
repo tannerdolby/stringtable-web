@@ -48,8 +48,8 @@ nav h1 {
 nav h1 a {
     color: black;
     text-decoration: none;
-    border-bottom: 1.5px solid transparent;
-    transition: 0.5s all ease;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s all ease-out;
 }
 
 nav h1 a:hover {
@@ -73,8 +73,8 @@ nav a i {
     margin-top: 20px;
 }
 
-.get-info > input {
-    border: 1px solid black;
+.get-info .flex > #myName {
+    border: 2px solid var(--background-color5);
     border-radius: 4px;
     max-width: 180px;
     min-height: 20px;
@@ -85,10 +85,30 @@ nav a i {
     box-shadow: var(--box-shadow);
 }
 
+#myBtn {
+    border: 2px solid var(--background-color5);
+    border-radius: 4px;
+    max-width: 180px;
+    min-height: 20px;
+    font-size: 14px;
+    margin: 5px 5px 5px 10px;
+    padding: 8px 8px 8px 8px;
+    transition: opacity 200ms ease-out;
+    box-shadow: var(--box-shadow);
+    background: var(--background-color5);
+    color: var(--pure-white);
+    /* border: 1px solid transparent;
+    transition: 0.7s all ease-out; */
+}
+
+#myBtn:hover {
+    cursor: pointer;
+}
+
 .get-info label {
     display: block;
     padding: 10px 10px 10px 0;
-    font-size: 20px;
+    font-size: 22px;
     font-family: var(--ptsans-font);
     font-weight: bold;
 }
@@ -104,7 +124,7 @@ main {
 }
 
 .table-container {
-    margin: 25px 0 auto;
+    margin: 15px auto 40px auto;
 }
 
 table {
@@ -141,4 +161,5 @@ table tr:nth-child(even) td {
     width: 70%;
     overflow: scroll;
 }
+
 
