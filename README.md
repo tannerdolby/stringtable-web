@@ -1,7 +1,7 @@
 # StrTable.io
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-This small project was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and became familiar with Node and ESLint for code analysis in the process.
+This small [project](https://codepen.io/spherical/pen/KKdRBmr) was apart of a JavaScript curriculumn created by Jad Joubran. I gave this String Variation table my own spin and became familiar with Node and ESLint for code analysis in the process.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -18,10 +18,10 @@ git clone https://github.com/your-username/stringtable-web.git
 ```
 
 ### Prerequisites
-1. Node.js (https://nodejs.org/en/)
-2. ESLint (https://eslint.org/)
+1. [Node.js](https://nodejs.org/en/)
+2. [ESLint](https://eslint.org/)
 
-To run this project you will need Node.js installed (use link above) then we can use `npm` to globally install ESLint.
+To run this project you will need Node.js installed (use link above) then we can use [npm](https://www.npmjs.com/) to globally install ESLint.
 
 * Installing eslint as a dev-dependency using terminal:
 ```
@@ -36,7 +36,7 @@ npm install eslint -g
 ### Installing
 * Fork this repo and clone your own local copy to run the application on any local server to test the String table.
 
-* You can view this application publicly through my Pen (https://codepen.io/spherical/pen/KKdRBmr).
+* You can view this application publicly through my [Pen](https://codepen.io/spherical/pen/KKdRBmr) on [Codepen.io]("https://www.codepen.io").
 
 ### Coding style tests
 
@@ -52,7 +52,7 @@ To utilize the power of ESLint for code analysis on any JavaScript file. Open a 
 * ESLint - Used for static code analysis
 
 ## Contributing
-Please use proper contributing etiquette for submitting a pull request to this repo. I'm happy to fix my mistakes if you help me find them!
+See [CONTRIBUTING.md](https://github.com/tannercd/stringtable-web/blob/master/CONTRIBUTING.md)
 
 ## Acknowledgments
 A special thanks to Jad Joubran (@jadjoubran | https://github.com/jadjoubran) for providing the JavaScript course that helped me to modify this project to my liking. These interactive tables that populate table data on keyup are quite enjoyable to watch (and build).
