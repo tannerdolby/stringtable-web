@@ -36,7 +36,7 @@ npm install eslint -g
 ### Installing
 * Fork this repo and clone your own local copy to run the application on any local server to test the String table.
 
-* You can view this application publicly through my [Pen](https://codepen.io/spherical/pen/KKdRBmr) on [Codepen.io]("https://www.codepen.io").
+* You can view this application publicly through my [Pen](https://codepen.io/spherical/pen/KKdRBmr) on [Codepen.io](https://www.codepen.io).
 
 ### Coding style tests
 
