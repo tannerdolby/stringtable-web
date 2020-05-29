@@ -13,7 +13,7 @@
     }
   },
   "keywords": [],
-  "author": "",
+  "author": "Tanner Dolby",
   "license": "ISC",
   "devDependencies": {
     "husky": "^4.2.5",
