@@ -104,7 +104,7 @@ export function toCamelCase(str) {
         }
         // If it is not the first word only upper case the first char and lowercase the rest.
         return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    }).join(""); // dont forget to join the characters back together 
+    }).join("");
 }
 
 /**
@@ -123,7 +123,7 @@ export function toHex(str) {
     return str.split("").map(val => val.charCodeAt(0).toString(16)).join(" ");
 }
 
-
+/* Open source code */
 function BinaryHeap(scoreFunction){
     this.content = [];
     this.scoreFunction = scoreFunction;
